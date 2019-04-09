@@ -1,0 +1,29 @@
+{
+  "name": "esx-optimize",
+  "version": "1.0.0",
+  "description": "A preloader for optimizing React applications with [`esx`](https://github.com/esxjs/esx)",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/index.test.js"
+  },
+  "keywords": [
+    "esx",
+    "react",
+    "createElement",
+    "jsx",
+    "fast",
+    "performance",
+    "native"
+  ],
+  "author": "David Mark Clements <david.mark.clements@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "to-esx": "^1.0.3"
+  },
+  "devDependencies": {
+    "esx": "^2.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "tap": "^12.6.1"
+  }
+}
