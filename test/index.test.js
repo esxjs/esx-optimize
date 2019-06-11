@@ -6,7 +6,7 @@ const expected = `() => {
 }`
 
 test('patches module system to convert module sources', async ({ is }) => {
-  const { restore } = require('..')
+  const { restore } = require('..').install()
   is(require('./fixture').toString(), expected)
   restore()
 })
