@@ -1,6 +1,6 @@
 {
   "name": "esx-optimize",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A preloader for optimizing React applications with [`esx`](https://github.com/esxjs/esx)",
   "main": "index.js",
   "scripts": {
